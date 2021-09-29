@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  font-size: 16pt;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+.header_core {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+}
+.header ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+.header li {
+  float:left;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.header li:hover a{
+  color:burlywood;
+}
+.authorization {
+  margin-left: auto;
+  margin-right: 15px;
+}
+.authorization span {
+  cursor: pointer;
+}
+.authorization span:hover {
+  color:burlywood;
+}
+
+#sign_in {
+  display: none;
+}
+#sign_up {
+  display: none;
+}
+
+.sign_fon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(9, 9, 48, 0.288);
+}
+.sign_block {
+  border-radius: 30px;
+  background-color: rgb(15, 15, 58);
+}
+.sign_form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+  padding: 25px;
+}
+.sign_change_menu {
+  cursor: pointer;
+}
+.sign_inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+  border: 1px solid #cccccc; 
+  border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  background: #ffffff !important;
+  outline: none; 
+  height: 24px; 
+  width: 180px; 
+  color: #1a0909; 
+  font-size: 14pt;
+  margin: 5px;
+}
